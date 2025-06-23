@@ -1,1 +1,3 @@
-# urosa_underwater_autonomy
+# Distributed AI Agents for Cognitive Underwater Robot Autonomy (UROSA)
+
+
