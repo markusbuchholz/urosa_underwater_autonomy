@@ -53,7 +53,7 @@ A dedicated Diagnostic Agent continuously monitors the robot's health data (e.g.
 ### Online Behavioral Tuning (Teacher-Student)
 One agent can "teach" another to improve its behavior in real-time. For example, a Teacher agent can provide feedback to a Student vision agent, guiding it to make its textual descriptions more concise or to focus on specific objects in a scene, effectively refining its policy on-the-fly.
 
-### Inherent Safety by Design
+### Inherent Safety
 Safety is built-in at multiple levels. Every agent's behavior is constrained by a "scaffolding" prompt during its creation, and its final output is checked by a `Safety Parser` before being executed. This multi-layered approach ensures that the agents act in a predictable, verifiable, and safe manner.
 
 
