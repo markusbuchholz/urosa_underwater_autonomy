@@ -1,7 +1,7 @@
 # UROSA: Distributed AI Agents for Cognitive Underwater Robot Autonomy
 ---
 
-This repository contains the official implementation of UROSA (Underwater Robot Self-Organizing Autonomy), a groundbreaking framework for building truly autonomous robots using a distributed network of Large Language Model (LLM) agents in ROS 2. <br>
+This repository contains the official implementation of UROSA (Underwater Robot Self-Organizing Autonomy), a framework for building truly autonomous robots using a distributed network of AI agents in ROS 2. <br>
 
 ## Introduction
 Traditional robotic systems are powerful in controlled settings but often struggle in complex, unpredictable environments like the underwater world. Their reliance on pre-programmed, rule-based algorithms limits their ability to adapt to novel situations, requiring constant human oversight and reprogramming.
