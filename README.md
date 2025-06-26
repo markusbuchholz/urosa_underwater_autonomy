@@ -27,7 +27,7 @@ This repository provides the necessary software and instructions to run the core
 
 UROSA is built on a two-layer architecture designed to separate high-level reasoning from low-level control, all orchestrated within the ROS 2 ecosystem.
 
-![UROSA Architecture Diagram](media/autonomy_arch_3.png) 
+![UROSA Architecture Diagram](media/fig_1_ver2.png) 
 
 * **Cognitive Layer:** This is the "brains" of the operation. It contains the distributed network of specialized AI agents that perform tasks like planning, reasoning, and diagnostics.
 * **ROS 2 Layer:** This is the "nervous system" of the robot. It handles all communication between agents, interfacing with the robot's hardware (sensors and actuators), and connecting to the simulator.
