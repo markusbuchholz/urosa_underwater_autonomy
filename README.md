@@ -1,9 +1,10 @@
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4db42115-a387-4b64-9f68-74c1df8f7b03"
-       alt="My image"
-       width="200" />
+  <img src="media/urosa.png"
+       alt="Urosa screenshot"
+       width="250" />
 </p>
+
 
 
 # UROSA: Distributed AI Agents for Cognitive Underwater Robot Autonomy
