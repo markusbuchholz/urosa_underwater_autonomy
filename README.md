@@ -7,7 +7,9 @@
 
 
 
-# UROSA: Distributed AI Agents for Cognitive Underwater Robot Autonomy
+<h1 align="center">
+  UROSA: Distributed AI Agents for Cognitive Underwater Robot Autonomy
+</h1>
 
 ---
 
