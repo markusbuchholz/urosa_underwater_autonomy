@@ -1,4 +1,9 @@
+
+<img src="https://github.com/user-attachments/assets/4db42115-a387-4b64-9f68-74c1df8f7b03"
+     alt="My image"
+     width="300" />
 # UROSA: Distributed AI Agents for Cognitive Underwater Robot Autonomy
+
 ---
 
 This repository contains the official implementation of UROSA (Underwater Robot Self-Organizing Autonomy), a framework for building truly autonomous robots using a distributed network of AI agents in ROS 2. <br>
