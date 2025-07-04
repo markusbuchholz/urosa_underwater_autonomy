@@ -94,23 +94,27 @@ UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run
 
 2.  **Pull a Base Model**
 
-    Next, you need a base model from which to create our specialized ROS 2 agent. We will use `llama3`.
+    Next, you need a base model from which to create our specialized ROS 2 agent. We will use e.g. ```llama3```.
+
+    All models are available [here](https://ollama.com/search).
 
     ```bash
     ollama pull llama3
     ```
     This command downloads the pre-trained Llama 3 model to your machine.
 
-3.  **Create a Custom Model File**
+4.  **Create a Custom Model File**
 
-    To make the LLM act as a specialized ROS 2 agent, we need to give it a specific system prompt. We first create a template from the existing `llama3` model.
+    To make the LLM act as a specialized ROS 2 agent, we need to give it a specific ```system prompt```. We first create a template from the existing `llama3` model.
+
+    The model file specification can be found [here](https://github.com/ollama/ollama/blob/main/docs/modelfile.md).
 
     ```bash
     ollama show --modelfile llama3 > ros2_model_file
     ```
     This command extracts the configuration (Modelfile) of the `llama3` model and saves it to a file named `ros2_model_file`.
 
-4.  **Define the Agent's Behavior**
+6.  **Define the Agent's Behavior**
 
     Open the `ros2_model_file` with a text editor. You will see a `SYSTEM` parameter. This is the core instruction that defines the AI's personality, capabilities, and constraints. **Modify the `SYSTEM` prompt** to define the behavior of your ROS 2 agent. For example:
 
@@ -134,7 +138,7 @@ UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run
     """
     ```
 
-5.  **Create the Custom Agent**
+7.  **Create the Custom Agent**
 
     Now, create the new agent model using your modified `ros2_model_file`.
 
@@ -143,7 +147,7 @@ UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run
     ```
     This command bundles your custom system prompt and the base model into a new, specialized model named `ros2_ai_agent`.
 
-6.  **Run Your Custom Agent**
+8.  **Run Your Custom Agent**
 
     You can now run your custom agent and interact with it directly from the command line.
 
