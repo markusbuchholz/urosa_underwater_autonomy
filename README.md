@@ -59,7 +59,7 @@ This section will guide you through setting up the UROSA environment and running
     First, clone the UROSA repository to your local machine:
 
     ```bash
-    git clone [https://github.com/markusbuchholz/urosa_underwater_autonomy](https://github.com/markusbuchholz/urosa_underwater_autonomy)
+    git clone https://github.com/markusbuchholz/urosa_underwater_autonomy
     cd urosa_underwater_autonomy/docker
     ```
 
