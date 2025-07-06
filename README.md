@@ -34,13 +34,36 @@ UROSA shifts the paradigm from writing rigid, low-level code to setting high-lev
 
 These agents collaborate, reason about their environment, and make decisions autonomously, allowing the system to handle unforeseen events and achieve complex objectives with minimal human intervention.
 
-### Key Features
+## Key Features
 - 🤖 **Agentic AI in ROS 2**: Seamlessly integrate powerful, pre-trained LLM agents directly into your ROS 2 computation graph.
 - 🧠 **Decentralized Cognition**: Create robust, fault-tolerant systems where multiple agents work together to solve problems.
 - ⚡ **Dynamic Adaptation**: Agents can reason about their environment and adapt their behavior in real-time based on live sensor data or changing mission needs.
 - ✍️ **On-the-Fly Code Generation**: The system can autonomously write, test, and deploy new ROS 2 nodes at runtime to extend its own functionality when it encounters a new challenge.
 - 📈 **Advanced Diagnostics**: Move beyond static fault trees with an AI agent that can diagnose complex system health issues by learning the vehicle's normal behavior.
 - 📚 **Experiential Learning**: Utilize a Vector Database to enable agents to learn from past experiences, improving performance and robustness over time.
+
+
+## Core Mechanisms
+
+UROSA's capabilities are enabled by a series of novel mechanisms that showcase the power of distributed agentic AI. Here’s a simple breakdown of the key innovations:
+
+### Decentralized Reasoning & Multi-Agent Coordination
+Instead of a single "brain," UROSA's agents work together as a team. They can communicate with each other to solve complex problems that a single agent could not, such as having two underwater vehicles autonomously negotiate a collision-free path in a cluttered environment.
+
+### Experiential Learning with a Vector Database (RAG)
+UROSA agents have a long-term memory. Using a Vector Database (VDB), agents can store and recall past experiences (both good and bad). When faced with a new challenge, like tracking a pipe that becomes hidden, an agent can query its memory to predict where the pipe should be, allowing it to recover much faster than if it were starting from scratch.
+
+### On-the-Fly Code Generation
+When UROSA's Brain Agent identifies a missing capability—like a specific data filter or a new planning algorithm—it can task a specialized `Node Gen` agent to **write, test, and deploy a new ROS 2 node at runtime**. The system literally extends its own software functionality without any human intervention.
+
+### Dynamic System Diagnostics
+A dedicated Diagnostic Agent continuously monitors the robot's health data (e.g., thruster power, sensor readings). By learning what "normal" looks like, it can diagnose complex, non-obvious failures (like a sluggish thruster) that would be missed by traditional systems that only check for pre-defined error codes.
+
+### Online Behavioral Tuning (Teacher-Student)
+One agent can "teach" another to improve its behavior in real-time. For example, a Teacher agent can provide feedback to a Student vision agent, guiding it to make its textual descriptions more concise or to focus on specific objects in a scene, effectively refining its policy on-the-fly.
+
+### Inherent Safety
+Safety is built-in at multiple levels. Every agent's behavior is constrained by a "scaffolding" prompt during its creation, and its final output is checked by a `Safety Parser` before being executed. This multi-layered approach ensures that the agents act in a predictable, verifiable, and safe manner.
 
 ---
 ## Getting Started
@@ -158,27 +181,6 @@ UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run
 
 ---
 
-## Core Mechanisms
-
-UROSA's capabilities are enabled by a series of novel mechanisms that showcase the power of distributed agentic AI. Here’s a simple breakdown of the key innovations:
-
-### Decentralized Reasoning & Multi-Agent Coordination
-Instead of a single "brain," UROSA's agents work together as a team. They can communicate with each other to solve complex problems that a single agent could not, such as having two underwater vehicles autonomously negotiate a collision-free path in a cluttered environment.
-
-### Experiential Learning with a Vector Database (RAG)
-UROSA agents have a long-term memory. Using a Vector Database (VDB), agents can store and recall past experiences (both good and bad). When faced with a new challenge, like tracking a pipe that becomes hidden, an agent can query its memory to predict where the pipe should be, allowing it to recover much faster than if it were starting from scratch.
-
-### On-the-Fly Code Generation
-When UROSA's Brain Agent identifies a missing capability—like a specific data filter or a new planning algorithm—it can task a specialized `Node Gen` agent to **write, test, and deploy a new ROS 2 node at runtime**. The system literally extends its own software functionality without any human intervention.
-
-### Dynamic System Diagnostics
-A dedicated Diagnostic Agent continuously monitors the robot's health data (e.g., thruster power, sensor readings). By learning what "normal" looks like, it can diagnose complex, non-obvious failures (like a sluggish thruster) that would be missed by traditional systems that only check for pre-defined error codes.
-
-### Online Behavioral Tuning (Teacher-Student)
-One agent can "teach" another to improve its behavior in real-time. For example, a Teacher agent can provide feedback to a Student vision agent, guiding it to make its textual descriptions more concise or to focus on specific objects in a scene, effectively refining its policy on-the-fly.
-
-### Inherent Safety
-Safety is built-in at multiple levels. Every agent's behavior is constrained by a "scaffolding" prompt during its creation, and its final output is checked by a `Safety Parser` before being executed. This multi-layered approach ensures that the agents act in a predictable, verifiable, and safe manner.
 
 ---
 ## Citation
