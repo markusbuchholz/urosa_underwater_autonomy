@@ -181,8 +181,6 @@ UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run
 
 ---
 
-
----
 ## Citation
 ```bibtex
 @inproceedings{buchholzUROSA2025,
