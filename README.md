@@ -2,7 +2,7 @@
 <p align="center">
   <img src="media/urosa.png"
        alt="Urosa screenshot"
-       width="250" />
+       width="450" />
 </p>
 
 
