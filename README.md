@@ -2,7 +2,7 @@
 <p align="center">
   <img src="media/urosa.png"
        alt="Urosa screenshot"
-       width="450" />
+       width="400" />
 </p>
 
 
@@ -22,7 +22,7 @@ Traditional robotic systems are powerful in controlled settings but often strugg
 
 UROSA is built on a two-layer architecture designed to separate high-level reasoning from low-level control, all orchestrated within the ROS 2 ecosystem.
 
-![UROSA Architecture Diagram](media/fig_1_ver4.png) 
+![UROSA Architecture Diagram](media/fig_1_ver6.png) 
 
 * **Cognitive Layer:** This is the "brains" of the operation. It contains the distributed network of specialized AI agents that perform tasks like planning, reasoning, and diagnostics.
 * **ROS 2 Layer:** This is the "nervous system" of the robot. It handles all communication between agents, interfacing with the robot's hardware (sensors and actuators), and connecting to the simulator.
