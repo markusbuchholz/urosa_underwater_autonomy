@@ -1,14 +1,14 @@
 
 <p align="center">
-  <img src="media/urosa.png"
+  <img src="media/urosa_2.png"
        alt="Urosa screenshot"
-       width="400" />
+       width="500" />
 </p>
 
 
 
 <h1 align="center">
-  UROSA: Distributed AI Agents for Cognitive Underwater Robot Autonomy
+  Distributed AI Agents for Cognitive Underwater Robot Autonomy
 </h1>
 
 ---
