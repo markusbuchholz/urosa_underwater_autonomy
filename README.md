@@ -74,6 +74,7 @@ This section will guide you through setting up the UROSA environment and running
 
 - Docker
 - NVIDIA Docker support for GPU acceleration (recommended)
+- StoneFish underwater simulator
 
 ### Installation and Setup
 
