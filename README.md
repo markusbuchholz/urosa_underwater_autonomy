@@ -45,6 +45,24 @@ These agents collaborate, reason about their environment, and make decisions aut
 - 📚 **Experiential Learning**: Utilize a Vector Database to enable agents to learn from past experiences, improving performance and robustness over time.
 
 
+## From Traditional Robotics to True Autonomy
+
+### Legacy approach
+
+<p align="center">
+  <img src="media/legacy.png"
+       alt="Urosa screenshot"
+       width="700" />
+</p>
+
+### AI Autonomy
+
+<p align="center">
+  <img src="media/new_urosa.png"
+       alt="Urosa screenshot"
+       width=700" />
+</p>
+
 ## Core Mechanisms
 
 UROSA's capabilities are enabled by a series of novel mechanisms that showcase the power of distributed agentic AI. Here’s a simple breakdown of the key innovations:
