@@ -20,6 +20,8 @@ Traditional robotic systems are powerful in controlled settings but often strugg
 
 ## Presentation
 
+[▶️ Watch the demo video](./media/demo.mp4)
+
 ## Architecture Overview
 
 ![UROSA Architecture Diagram](media/fig_1_ver8.png) 
