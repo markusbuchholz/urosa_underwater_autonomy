@@ -36,7 +36,7 @@ UROSA shifts the paradigm from writing rigid, low-level code to setting high-lev
 
 These agents collaborate, reason about their environment, and make decisions autonomously, allowing the system to handle unforeseen events and achieve complex objectives with minimal human intervention.
 
-## Key Features
+## Core Innovations
 - 🤖 **Agentic AI in ROS 2**: Seamlessly integrate powerful, pre-trained LLM agents directly into your ROS 2 computation graph.
 - 🧠 **Decentralized Cognition**: Create robust, fault-tolerant systems where multiple agents work together to solve problems.
 - ⚡ **Dynamic Adaptation**: Agents can reason about their environment and adapt their behavior in real-time based on live sensor data or changing mission needs.
@@ -44,6 +44,11 @@ These agents collaborate, reason about their environment, and make decisions aut
 - 📈 **Advanced Diagnostics**: Move beyond static fault trees with an AI agent that can diagnose complex system health issues by learning the vehicle's normal behavior.
 - 📚 **Experiential Learning**: Utilize a Vector Database to enable agents to learn from past experiences, improving performance and robustness over time.
 
+<p align="center">
+  <img src="media/urosa_shift.png"
+       alt="Urosa screenshot"
+       width="500" />
+</p>
 
 ## From Traditional Robotics to True Autonomy
 
