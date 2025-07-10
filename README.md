@@ -52,7 +52,7 @@ These agents collaborate, reason about their environment, and make decisions aut
        width="500" />
 </p>
 
-## From Traditional Robotics to True Autonomy
+## From Traditional to True Autonomy
 
 ### Legacy approach
 
