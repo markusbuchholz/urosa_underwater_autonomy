@@ -39,12 +39,11 @@ UROSA shifts the paradigm from writing rigid, low-level code to setting high-lev
 These agents collaborate, reason about their environment, and make decisions autonomously, allowing the system to handle unforeseen events and achieve complex objectives with minimal human intervention.
 
 ## Core Innovations
-- 🤖 **Agentic AI in ROS 2**: Seamlessly integrate powerful, pre-trained LLM agents directly into your ROS 2 computation graph.
-- 🧠 **Decentralized Cognition**: Create robust, fault-tolerant systems where multiple agents work together to solve problems.
-- ⚡ **Dynamic Adaptation**: Agents can reason about their environment and adapt their behavior in real-time based on live sensor data or changing mission needs.
-- ✍️ **On-the-Fly Code Generation**: The system can autonomously write, test, and deploy new ROS 2 nodes at runtime to extend its own functionality when it encounters a new challenge.
-- 📈 **Advanced Diagnostics**: Move beyond static fault trees with an AI agent that can diagnose complex system health issues by learning the vehicle's normal behavior.
-- 📚 **Experiential Learning**: Utilize a Vector Database to enable agents to learn from past experiences, improving performance and robustness over time.
+ - **Flexible, Decoupled Reasoning:** Integrates LLM agents into the ROS 2 framework, enabling multiple agents to collaborate on complex problems.
+ - **Lifelong Learning & Adaptation:** Agents adapt their behavior in real-time using live sensor data and learn from past experiences to improve performance over time.
+ - **Predictive Diagnostics:** An AI agent learns the vehicle's normal behavior to diagnose complex system health issues, moving beyond static fault detection.
+ - **On-the-Fly Code Generation:** The system can autonomously write, test, and deploy new ROS 2 nodes at runtime to handle new challenges.
+ - **Integrated AI Safety & Control:** Ensures robust system performance through the combination of real-time adaptation, decentralized cognition, and predictive health monitoring.
 
 <p align="center">
   <img src="media/urosa_shift.png"
