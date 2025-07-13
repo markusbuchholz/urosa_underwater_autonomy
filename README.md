@@ -20,7 +20,7 @@ Traditional robotic systems are powerful in controlled settings but often strugg
 
 ## Presentation
 
-[▶️ Watch the demo video](./media/journal_vidoe_ver_3.mp4)
+[▶️ Watch the demo video](./media/journal_video_ver_3.mp4)
 
 ## Architecture Overview
 
