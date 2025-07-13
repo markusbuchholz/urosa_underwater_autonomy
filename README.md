@@ -20,7 +20,7 @@ Traditional robotic systems are powerful in controlled settings but often strugg
 
 ## Presentation
 
-[▶️ Watch the demo video](./media/journal_video_ver_3.mp4)
+[▶️ Watch the demo video](https://raw.githubusercontent.com/markusbuchholz/urosa_underwater_autonomy/main/media/journal_video_ver_3.mp4)
 
 ## Architecture Overview
 
