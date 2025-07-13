@@ -22,6 +22,10 @@ Traditional robotic systems are powerful in controlled settings but often strugg
 
 
 
+https://github.com/user-attachments/assets/c2a5c82b-b534-4407-9ad8-89c109c9a1c6
+
+
+
 
 ## Architecture Overview
 
