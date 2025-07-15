@@ -18,7 +18,7 @@ This repository contains the official implementation of UROSA (Underwater Robot 
 ## Introduction
 Traditional robotic systems are powerful in controlled settings but often struggle in complex, unpredictable environments like the underwater world. Their reliance on pre-programmed, rule-based algorithms limits their ability to adapt to novel situations, requiring constant human oversight and reprogramming.
 
-## Presentation
+## UROSA Presentation
 
 Note: Low quality of audio!<br>
 Check the media folder for the better one.
