@@ -235,12 +235,19 @@ UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run
     You can initiate the process by sending a mission string to the /rov_mission topic:
 
     ```bash
-
     ros2 topic pub /rov_mission std_msgs/msg/String "{data: 'Go to position x = 0, y = -2 , and z = -5'}" --once
      ```
     Below is the Python script for the ROS 2 node (ros2_llm_node.py) that facilitates this interaction:
 
     NOTE: The PID implemention is not provided.
+
+    To run following node, save the code as ```ros2_llm_node.py``` and execute it:
+
+    ```bash
+    source /opt/ros/humble/setup.bash
+
+    python3 ros2_llm_node.py
+    ```
 
     ```python
 
