@@ -136,7 +136,7 @@ This section will guide you through setting up the UROSA environment and running
     sudo ./run.sh
     ```
 
-### Setting up the Local AI Agent with Ollama
+## Run UROSA
 
 UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run these models locally. Follow these steps to set up the required AI agent.
 
