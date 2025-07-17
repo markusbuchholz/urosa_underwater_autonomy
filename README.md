@@ -138,7 +138,7 @@ This section will guide you through setting up the UROSA environment and running
 
 ## Run UROSA
 
-UROSA's agents are powered by Large Language Models (LLMs). We use Ollama to run these models locally. Follow these steps to set up the required AI agent.
+UROSA's agents are powered by LLMs. We use Ollama to run these models locally. Follow these steps to set up the required AI agent.
 
 1.  **Install Ollama**
 
