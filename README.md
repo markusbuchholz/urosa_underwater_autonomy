@@ -94,6 +94,24 @@ One agent can "teach" another to improve its behavior in real-time. For example,
 Safety is built-in at multiple levels. Every agent's behavior is constrained by a "scaffolding" prompt during its creation, and its final output is checked by a `Safety Parser` before being executed. This multi-layered approach ensures that the agents act in a predictable, verifiable, and safe manner. -->
 
 ---
+## Before You Start
+    Following repository demonstrates how to run **UROSA**.
+
+    The core idea is to create a custom LLM agent tailored for ROS 2 tasks and then interface it with a ROS 2 node. This node acts as the bridge, feeding information from ROS topics to the LLM and translating the LLM's responses back into actionable commands for the robot.
+
+    ### Repository Structure
+    To help you navigate this project, here is a brief overview of the key directories inside the ```src``` folder:
+
+    - ```knowledge/:``` This directory contains the resources for building your custom AI agent. The files here, like ros2_model_file, are created from a base model template (e.g., llama3) and are customized by modifying the ```SYSTEM prompt```. This prompt defines the agent's personality, expertise, and response format, as detailed in the Getting Started guide.
+
+    - ```autonomy/:``` This folder holds the example ROS 2 Python scripts. These nodes, like the one described in the Run UROSA section, demonstrate how to subscribe to ROS topics, interact with your custom LLM agent, parse its output, and publish commands to control robotic behavior.
+
+    ### How to Proceed
+    - ```Getting Started:``` This first section will guide you through installing the necessary tools (like Ollama) and creating your very own specialized ros2_ai_agent.
+
+    - ```Run UROSA:``` This second section provides a practical example of how to run the ROS 2 node that brings your agent to life, showing how it receives missions and translates them into robotic actions.
+
+---
 ## Getting Started
 
 This section will guide you through setting up the UROSA environment and running the core framework.
@@ -101,8 +119,8 @@ This section will guide you through setting up the UROSA environment and running
 ### Prerequisites
 
 - Docker
-- NVIDIA Docker support for GPU acceleration (recommended)
-- StoneFish underwater simulator
+- NVIDIA Docker support for GPU acceleration
+- StoneFish underwater simulator or GazeboSim (optional)
 
 ### Installation and Setup
 
@@ -130,6 +148,7 @@ This section will guide you through setting up the UROSA environment and running
     ```bash
     sudo ./run.sh
     ```
+---
 
 ## Run UROSA
 
