@@ -34,25 +34,9 @@ UROSA is built on a two-layer architecture designed to separate high-level reaso
 The fundamental building block of UROSA is the **Agentic ROS 2 Node**, where an LLM is embedded directly inside a ROS 2 node. This makes each agent a first-class citizen in the robotics ecosystem. The **Brain Agent** acts as a central orchestrator and knowledge manager, while **Specialist Agents** (e.g., for Vision, Motion, Diagnostics) execute specific tasks.
 Each **Agentic Node**, fuses the high-level AI Agent with its ```ROS 2 Node Implementation```, encapsulating the ```AI Reasoner```, a ```Safety Parser```, and communication interfaces.
 
-## Our Solution: UROSA
+## Our Solution: UROSA - tranistion to True Robot Autonomy
+
 UROSA shifts the paradigm from writing rigid, low-level code to setting high-level mission goals. We replace the traditional, monolithic control program with a "cognitive ecosystem" of specialized AI agents. Each agent is an intelligent, ROS 2-native module responsible for a specific task—like vision, motion planning, or diagnostics.
-
-These agents collaborate, reason about their environment, and make decisions autonomously, allowing the system to handle unforeseen events and achieve complex objectives with minimal human intervention.
-
-## Core Innovations
- - **Flexible, Decoupled Reasoning:** Integrates LLM agents into the ROS 2 framework, enabling multiple agents to collaborate on complex problems.
- - **Lifelong Learning & Adaptation:** Agents adapt their behavior in real-time using live sensor data and learn from past experiences to improve performance over time.
- - **Predictive Diagnostics:** An AI agent learns the vehicle's normal behavior to diagnose complex system health issues, moving beyond static fault detection.
- - **On-the-Fly Code Generation:** The system can autonomously write, test, and deploy new ROS 2 nodes at runtime to handle new challenges.
- - **Integrated AI Safety & Control:** Ensures robust system performance through the combination of real-time adaptation, decentralized cognition, and predictive health monitoring.
-
-<p align="center">
-  <img src="media/urosa_shift.png"
-       alt="Urosa screenshot"
-       width="500" />
-</p>
-
-## From Traditional to True Autonomy
 
 ### Legacy approach
 
@@ -69,6 +53,23 @@ These agents collaborate, reason about their environment, and make decisions aut
        alt="Urosa screenshot"
        width=700" />
 </p>
+<!-- These agents collaborate, reason about their environment, and make decisions autonomously, allowing the system to handle unforeseen events and achieve complex objectives with minimal human intervention. -->
+
+<!-- ## Core Innovations
+ - **Flexible, Decoupled Reasoning:** Integrates LLM agents into the ROS 2 framework, enabling multiple agents to collaborate on complex problems.
+ - **Lifelong Learning & Adaptation:** Agents adapt their behavior in real-time using live sensor data and learn from past experiences to improve performance over time.
+ - **Predictive Diagnostics:** An AI agent learns the vehicle's normal behavior to diagnose complex system health issues, moving beyond static fault detection.
+ - **On-the-Fly Code Generation:** The system can autonomously write, test, and deploy new ROS 2 nodes at runtime to handle new challenges.
+ - **Integrated AI Safety & Control:** Ensures robust system performance through the combination of real-time adaptation, decentralized cognition, and predictive health monitoring.
+
+<p align="center">
+  <img src="media/urosa_shift.png"
+       alt="Urosa screenshot"
+       width="500" />
+</p> -->
+
+<!-- ## From Traditional to True Autonomy -->
+
 
 <!-- ## Core Mechanisms
 
