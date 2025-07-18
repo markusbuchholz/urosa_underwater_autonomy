@@ -13,20 +13,14 @@
 
 ---
 
-This repository contains the official implementation of UROSA (Underwater Robot Self-Organizing Autonomy), a framework for building truly autonomous robots using a distributed network of AI agents in ROS 2. <br>
+This repository contains the official implementation of **UROSA (Underwater Robot Self-Organizing Autonomy)**, a framework for building truly autonomous robots using a distributed network of AI agents in ROS 2. <br>
 
 ## Introduction
 Traditional robotic systems are powerful in controlled settings but often struggle in complex, unpredictable environments like the underwater world. Their reliance on pre-programmed, rule-based algorithms limits their ability to adapt to novel situations, requiring constant human oversight and reprogramming.
 
 ## UROSA Presentation
 
-Note: Low quality of audio!<br>
-Check the media folder for the better one.
-
-
-https://github.com/user-attachments/assets/c2a5c82b-b534-4407-9ad8-89c109c9a1c6
-
-
+Visit official [web page](https://markusbuchholz.github.io/urosa.html) to check details.
 
 
 ## Architecture Overview
@@ -76,7 +70,7 @@ These agents collaborate, reason about their environment, and make decisions aut
        width=700" />
 </p>
 
-## Core Mechanisms
+<!-- ## Core Mechanisms
 
 UROSA's capabilities are enabled by a series of novel mechanisms that showcase the power of distributed agentic AI. Here’s a simple breakdown of the key innovations:
 
@@ -96,7 +90,7 @@ A dedicated Diagnostic Agent continuously monitors the robot's health data (e.g.
 One agent can "teach" another to improve its behavior in real-time. For example, a Teacher agent can provide feedback to a Student vision agent, guiding it to make its textual descriptions more concise or to focus on specific objects in a scene, effectively refining its policy on-the-fly.
 
 ### 5. Inherent Safety
-Safety is built-in at multiple levels. Every agent's behavior is constrained by a "scaffolding" prompt during its creation, and its final output is checked by a `Safety Parser` before being executed. This multi-layered approach ensures that the agents act in a predictable, verifiable, and safe manner.
+Safety is built-in at multiple levels. Every agent's behavior is constrained by a "scaffolding" prompt during its creation, and its final output is checked by a `Safety Parser` before being executed. This multi-layered approach ensures that the agents act in a predictable, verifiable, and safe manner. -->
 
 ---
 ## Getting Started
