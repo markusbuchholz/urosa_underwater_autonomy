@@ -53,47 +53,8 @@ UROSA shifts the paradigm from writing rigid, low-level code to setting high-lev
        alt="Urosa screenshot"
        width=700" />
 </p>
-<!-- These agents collaborate, reason about their environment, and make decisions autonomously, allowing the system to handle unforeseen events and achieve complex objectives with minimal human intervention. -->
-
-<!-- ## Core Innovations
- - **Flexible, Decoupled Reasoning:** Integrates LLM agents into the ROS 2 framework, enabling multiple agents to collaborate on complex problems.
- - **Lifelong Learning & Adaptation:** Agents adapt their behavior in real-time using live sensor data and learn from past experiences to improve performance over time.
- - **Predictive Diagnostics:** An AI agent learns the vehicle's normal behavior to diagnose complex system health issues, moving beyond static fault detection.
- - **On-the-Fly Code Generation:** The system can autonomously write, test, and deploy new ROS 2 nodes at runtime to handle new challenges.
- - **Integrated AI Safety & Control:** Ensures robust system performance through the combination of real-time adaptation, decentralized cognition, and predictive health monitoring.
-
-<p align="center">
-  <img src="media/urosa_shift.png"
-       alt="Urosa screenshot"
-       width="500" />
-</p> -->
-
-<!-- ## From Traditional to True Autonomy -->
 
 
-<!-- ## Core Mechanisms
-
-UROSA's capabilities are enabled by a series of novel mechanisms that showcase the power of distributed agentic AI. Here’s a simple breakdown of the key innovations:
-
-### 1. Decentralized Reasoning & Multi-Agent Coordination
-Instead of a single "brain," UROSA's agents work together as a team. They can communicate with each other to solve complex problems that a single agent could not, such as having two underwater vehicles autonomously negotiate a collision-free path in a cluttered environment.
-
-### Experiential Learning with a Vector Database (RAG)
-UROSA agents have a long-term memory. Using a Vector Database (VDB), agents can store and recall past experiences (both good and bad). When faced with a new challenge, like tracking a pipe that becomes hidden, an agent can query its memory to predict where the pipe should be, allowing it to recover much faster than if it were starting from scratch.
-
-### 2. On-the-Fly Code Generation
-When UROSA's Brain Agent identifies a missing capability—like a specific data filter or a new planning algorithm—it can task a specialized `Node Gen` agent to **write, test, and deploy a new ROS 2 node at runtime**. The system literally extends its own software functionality without any human intervention.
-
-### 3. Dynamic System Diagnostics
-A dedicated Diagnostic Agent continuously monitors the robot's health data (e.g., thruster power, sensor readings). By learning what "normal" looks like, it can diagnose complex, non-obvious failures (like a sluggish thruster) that would be missed by traditional systems that only check for pre-defined error codes.
-
-### 4. Online Behavioral Tuning (Teacher-Student)
-One agent can "teach" another to improve its behavior in real-time. For example, a Teacher agent can provide feedback to a Student vision agent, guiding it to make its textual descriptions more concise or to focus on specific objects in a scene, effectively refining its policy on-the-fly.
-
-### 5. Inherent Safety
-Safety is built-in at multiple levels. Every agent's behavior is constrained by a "scaffolding" prompt during its creation, and its final output is checked by a `Safety Parser` before being executed. This multi-layered approach ensures that the agents act in a predictable, verifiable, and safe manner. -->
-
----
 ## Before You Start
     Following repository demonstrates how to run **UROSA**.
 
@@ -111,7 +72,7 @@ Safety is built-in at multiple levels. Every agent's behavior is constrained by 
 
     - ```Run UROSA:``` This second section provides a practical example of how to run the ROS 2 node that brings your agent to life, showing how it receives missions and translates them into robotic actions.
 
----
+
 ## Getting Started
 
 This section will guide you through setting up the UROSA environment and running the core framework.
