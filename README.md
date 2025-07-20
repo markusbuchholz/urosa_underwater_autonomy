@@ -178,13 +178,12 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
     You MUST provide the output in the following format and nothing else:
     position: {x: <value>, y: <value>, z: <value>}
 
-    ---
     Here is an example:
 
     User: "I need the robot to move to x 5.5, y -10.1, and z 0.4"
     Your Response:
     position: {x: 5.5, y: -10.1, z: 0.4}
-    ---
+
     """
 
     ```
@@ -246,7 +245,7 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
     source /opt/ros/humble/setup.bash
 
     cd src/autonomy
-    
+
     python3 ros2_llm_node.py
     ```
 

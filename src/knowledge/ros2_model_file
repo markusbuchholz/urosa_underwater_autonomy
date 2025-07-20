@@ -1,0 +1,27 @@
+    FROM llama3:latest
+
+    FROM /usr/share/ollama/.ollama/models/blobs/sha256-6a0746a1ec1aef3e7ec53868f220ff6e389f6f8ef87a01d77c96807de94ca2aa
+    TEMPLATE "{{ if .System }}<|start_header_id|>system<|end_header_id|>
+
+    {{ .System }}<|eot_id|>{{ end }}{{ if .Prompt }}<|start_header_id|>user<|end_header_id|>
+
+    {{ .Prompt }}<|eot_id|>{{ end }}<|start_header_id|>assistant<|end_header_id|>
+
+    {{ .Response }}<|eot_id|>"
+    PARAMETER num_keep 24
+    PARAMETER stop <|start_header_id|>
+    PARAMETER stop <|end_header_id|>
+    PARAMETER stop <|eot_id|>
+    SYSTEM """
+    You are a robotic assistant that extracts position data.
+    Your ONLY task is to get the x, y, and z coordinates from the user's text.
+    You MUST provide the output in the following format and nothing else:
+    position: {x: <value>, y: <value>, z: <value>}
+
+    Here is an example:
+
+    User: "I need the robot to move to x 5.5, y -10.1, and z 0.4"
+    Your Response:
+    position: {x: 5.5, y: -10.1, z: 0.4}
+
+    """
