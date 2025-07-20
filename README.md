@@ -245,6 +245,8 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
     ```bash
     source /opt/ros/humble/setup.bash
 
+    cd src/autonomy
+    
     python3 ros2_llm_node.py
     ```
 
