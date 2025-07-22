@@ -215,7 +215,7 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
 
 7. **Integrate the Custom Agent into a ROS 2 Node**
 
-    Your ```custom LLM agent``` can be incorporated into a ```ROS 2 node```, allowing it to become an ```agentic``` component that can receive information and perform actions within the ROS 2 ecosystem. This is achieved by creating a ROS 2 node that communicates with the ```Ollama model```.
+    Your ```custom LLM agent``` can be incorporated into a ```ROS 2 node```, allowing it to become an ```agentic``` component that can receive information and perform actions within the ```ROS 2```. This is achieved by creating a ```ROS 2 node``` that communicates with the ```Ollama model```.
 
     The fundamental architecture involves using ROS 2 subscribers and publishers:
 
