@@ -227,16 +227,17 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
 
     This cycle typically runs whenever new information is received on the subscribed topics and the LLM is ready to process a new request.
 
-    Example: A Mission-to-Pose Agent
+    **Example: A Mission-to-Pose Agent**
     
-    Let's consider an example where a ROS 2 node listens for a mission description on a topic, asks the LLM to extract a target position, and then publishes that position as a PoseStamped message.
+    Let's consider an example where a ROS 2 node listens for a mission description on a topic, asks the LLM to extract a target position, and then publishes that position as a message.
 
-    You can initiate the process by sending a mission string to the /rov_mission topic:
+    You can initiate the process by sending a mission string to the ```/rov_mission``` topic:
 
     ```bash
     ros2 topic pub /rov_mission std_msgs/msg/String "{data: 'Go to position x = 0, y = -2 , and z = -5'}" --once
      ```
-    Below is the Python script for the ROS 2 node (ros2_llm_node.py) that facilitates this interaction:
+    
+    Below is the Python script for the ROS 2 node (```ros2_llm_node.py```) that facilitates this interaction:
 
     NOTE: The PID implemention is not provided.
 
