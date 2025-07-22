@@ -59,7 +59,7 @@ UROSA shifts the paradigm from writing rigid, low-level code to setting high-lev
 
 ## Before You Start
 
-Following repository demonstrates how to run **UROSA**.
+Following steps demonstrate how to run **UROSA**.
 
 The core idea is to create a custom LLM agent tailored for ROS 2 tasks and then interface it with a ROS 2 node. This node acts as the bridge, feeding information from ROS topics to the LLM and translating the LLM's responses back into actionable commands for the robot.
 
