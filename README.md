@@ -11,11 +11,12 @@
   Distributed AI Agents for Cognitive Underwater Robot Autonomy
 </h1>
 
----
 
 This repository contains the official implementation of **UROSA (Underwater Robot Self-Organizing Autonomy)**, a framework for building truly autonomous robots using a distributed network of AI agents in ROS 2. <br>
 
+
 ## Introduction
+
 Traditional robotic systems are powerful in controlled settings but often struggle in complex, unpredictable environments like the underwater world. Their reliance on pre-programmed, rule-based algorithms limits their ability to adapt to novel situations, requiring constant human oversight and reprogramming.
 
 ## UROSA Presentation
@@ -58,7 +59,7 @@ UROSA shifts the paradigm from writing rigid, low-level code to setting high-lev
 
 ## Before You Start
 
-Following repository demonstrates how to run **UROSA**.
+Following steps demonstrate how to run **UROSA**.
 
 The core idea is to create a custom LLM agent tailored for ROS 2 tasks and then interface it with a ROS 2 node. This node acts as the bridge, feeding information from ROS topics to the LLM and translating the LLM's responses back into actionable commands for the robot.
 
@@ -214,7 +215,7 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
 
 7. **Integrate the Custom Agent into a ROS 2 Node**
 
-    Your ```custom LLM agent``` can be incorporated into a ```ROS 2 node```, allowing it to become an ```agentic``` component that can receive information and perform actions within the ROS 2 ecosystem. This is achieved by creating a ROS 2 node that communicates with the ```Ollama model```.
+    Your ```custom LLM agent``` can be incorporated into a ```ROS 2 node```, allowing it to become an ```agentic``` component that can receive information and perform actions within the ```ROS 2```. This is achieved by creating a ```ROS 2 node``` that communicates with the ```Ollama model```.
 
     The fundamental architecture involves using ROS 2 subscribers and publishers:
 
@@ -226,16 +227,17 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
 
     This cycle typically runs whenever new information is received on the subscribed topics and the LLM is ready to process a new request.
 
-    Example: A Mission-to-Pose Agent
+    **Example: A Mission-to-Pose Agent**
     
-    Let's consider an example where a ROS 2 node listens for a mission description on a topic, asks the LLM to extract a target position, and then publishes that position as a PoseStamped message.
+    Let's consider an example where a ROS 2 node listens for a mission description on a topic, asks the LLM to extract a target position, and then publishes that position as a message.
 
-    You can initiate the process by sending a mission string to the /rov_mission topic:
+    You can initiate the process by sending a mission string to the ```/rov_mission``` topic:
 
     ```bash
     ros2 topic pub /rov_mission std_msgs/msg/String "{data: 'Go to position x = 0, y = -2 , and z = -5'}" --once
      ```
-    Below is the Python script for the ROS 2 node (ros2_llm_node.py) that facilitates this interaction:
+    
+    Below is the Python script for the ROS 2 node (```ros2_llm_node.py```) that facilitates this interaction:
 
     NOTE: The PID implemention is not provided.
 
