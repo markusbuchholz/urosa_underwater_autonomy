@@ -85,7 +85,7 @@ This section will guide you through setting up the UROSA environment and running
 
 - Docker
 - NVIDIA Docker support for GPU acceleration
-- StoneFish underwater simulator or GazeboSim (optional)
+- StoneFish or [GazeboSim underwater simulator](https://github.com/markusbuchholz/marine-robotics-sim-framework) (optional)
 
 ### Installation and Setup
 
