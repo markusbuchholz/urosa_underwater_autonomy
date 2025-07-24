@@ -101,7 +101,6 @@ class MapPlannerNode(Node):
 
             output = result.stdout.strip()
 
-            # you can publish this to another topic or just log/print
             self.get_logger().info(f"Result for {os.path.basename(map_path)}:\n{output}")
             print("\n===== LLM OUTPUT =====")
             print(output)
