@@ -199,8 +199,6 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
 
     ```
 
-
-
 5.  **Create the Custom Agent**
 
     Now, create the new agent model using your modified `ros2_model_file`.
@@ -356,7 +354,10 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
             main()
 
     ```
-   
+8. **Other Examples**
+
+    Files ```ros2_tether_mission``` and ```ros2_tether_mission.py``` provide the intuition on how the motion planner for the multi-robot system ASV-AUV constrained by tether has been implemented.
+
 ---
 
 ## Citation
