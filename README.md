@@ -71,9 +71,9 @@ To help you navigate this project, here is a brief overview of the key directori
 - ```autonomy```: This folder holds the example ROS 2 Python scripts. These nodes, like the one described in the Run UROSA section, demonstrate how to subscribe to ROS topics, interact with your custom LLM agent, parse its output, and publish commands to control robotic behavior.
 
 ### How to Proceed
-- ```Getting Started:``` This first section will guide you through installing the necessary tools (like Ollama) and creating your very own specialized ros2_ai_agent.
+- **Getting Started** - This first section will guide you through installing the necessary tools (like Ollama) and creating your very own specialized ros2_ai_agent.
 
-- ```Run UROSA:``` This second section provides a practical example of how to run the ROS 2 node that brings your agent to life, showing how it receives missions and translates them into robotic actions.
+- **Run UROSA** - This second section provides a practical example of how to run the ROS 2 node that brings your agent to life, showing how it receives missions and translates them into robotic actions.
 
 ---
 
