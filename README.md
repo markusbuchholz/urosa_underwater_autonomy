@@ -108,6 +108,16 @@ This section will guide you through setting up the UROSA environment and running
 
 3.  **Run the Docker Container**
 
+    NOTE: In  ```run.sh ``` adjust these paths:
+
+    ```bash
+     #Adjust these paths
+    local_auto="/home/markus/underwater/robot_autonomy/"
+    local_src="/home/markus/underwater/robot_autonomy/src/"
+
+    ```
+
+
     This command will start the Docker container and give you an interactive shell within the UROSA environment.
 
     ```bash

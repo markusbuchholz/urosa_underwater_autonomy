@@ -12,7 +12,7 @@ if [ ! -f $XAUTH ]; then
     chmod a+r $XAUTH
 fi
 
-#Adjust these folders
+#Adjust these paths
 local_auto="/home/markus/underwater/robot_autonomy/"
 local_src="/home/markus/underwater/robot_autonomy/src/"
 
