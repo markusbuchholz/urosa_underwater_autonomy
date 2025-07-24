@@ -356,7 +356,8 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
     ```
 8. **Other Examples**
 
-    Files ```ros2_tether_mission``` and ```ros2_tether_mission.py``` provide the intuition on how the motion planner for the multi-robot system ASV-AUV constrained by tether has been implemented.
+    - Files ```ros2_tether_mission``` and ```ros2_tether_mission.py``` provide the intuition on how the motion planner for the multi-robot system ASV-AUV constrained by tether has been implemented.
+    - Files ```ros2_vision_vdb``` and ```ros2_vision_vdb.py``` provide the intuition on how the RAG (VDB) works.
 
 ---
 

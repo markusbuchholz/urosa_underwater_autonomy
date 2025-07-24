@@ -1,0 +1,36 @@
+#FROM gemma3:12b
+
+#FROM /usr/share/ollama/.ollama/models/blobs/sha256-e8ad13eff07a78d89926e9e8b882317d082ef5bf9768ad7b50fcdbbcd63748de
+
+FROM gemma3:27b
+
+FROM /usr/share/ollama/.ollama/models/blobs/sha256-e796792eba26c4d3b04b0ac5adb01a453dd9ec2dfd83b6c59cbf6fe5f30b0f68
+
+
+TEMPLATE """{{- range $i, $_ := .Messages }}
+{{- $last := eq (len (slice $.Messages $i)) 1 }}
+{{- if or (eq .Role "user") (eq .Role "system") }}<start_of_turn>user
+{{ .Content }}<end_of_turn>
+{{ if $last }}<start_of_turn>model
+{{ end }}
+{{- else if eq .Role "assistant" }}<start_of_turn>model
+{{ .Content }}{{ if not $last }}<end_of_turn>
+{{ end }}
+{{- end }}
+{{- end }}"""
+PARAMETER top_k 64
+PARAMETER top_p 0.5
+PARAMETER stop <end_of_turn>
+PARAMETER temperature 0.5
+SYSTEM """
+You are an expert in vision agent.
+
+You MUST understend the correlation between the images provided to you and postion error which you can read in the text file.
+
+You MUST provide the output the locataion of black rectangle but only x value, measuring from the left!
+
+You MUST provide exactly one line, no extra text, in this format:  
+
+distance: <x> m 
+
+"""
