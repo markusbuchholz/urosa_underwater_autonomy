@@ -84,8 +84,9 @@ This section will guide you through setting up the UROSA environment and running
 ### Prerequisites
 
 - Docker
-- NVIDIA Docker support for GPU acceleration
+- Install [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) to support Docker to access GPU (required).
 - StoneFish or [GazeboSim underwater simulator](https://github.com/markusbuchholz/marine-robotics-sim-framework) (optional)
+- GPU
 
 ### Installation and Setup
 
