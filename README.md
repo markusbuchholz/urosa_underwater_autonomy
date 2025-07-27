@@ -360,7 +360,9 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
     Note: The examples provide only the core intuitions on how to create AI agents. The complete implementation requires real vehicles or simulators, controllers, and interfaces. 
 
     - The files ```ros2_tether_mission``` and ```ros2_tether_mission.py``` provide the intuition on how the motion planner for the multi-robot system ASV-AUV constrained by tether has been implemented.
-    - The files ```ros2_vision_vdb``` and ```ros2_vision_vdb.py``` provide insight into how the RAG (VDB) operates. In the following example, the Agent AI calculates the AUV position error, which is then sent to the vehicle controller to make compensations. The VDB, which stores previous images with associated errors, gives the AI Agent additional knowledge to estimate the error based on incoming images. 
+    - The files ```ros2_vision_vdb``` and ```ros2_vision_vdb.py``` provide insight into how the RAG (VDB) operates. In the following example, the Agent AI calculates the AUV position error, which is then sent to the vehicle controller to make compensations. The VDB, which stores previous images with associated errors, gives the AI Agent additional knowledge to estimate the error based on incoming images.
+    - The files ```ros2_maze_game_rov_a.py``` and ```ros2_maze_game_rov_b.py``` provide insight into how two agents running different ```LLM models``` can communicate and exchange information using ROS 2 topics.
+    
 
 ---
 
