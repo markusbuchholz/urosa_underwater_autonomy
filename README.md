@@ -30,7 +30,7 @@ UROSA is built on a two-layer architecture designed to separate high-level reaso
 The fundamental building block of UROSA is the **Agentic ROS 2 Node**, where an LLM is embedded directly inside a ROS 2 node. This makes each agent a first-class citizen in the robotics ecosystem. The **Brain Agent** acts as a central orchestrator and knowledge manager, while **Specialist Agents** (e.g., for Vision, Motion, Diagnostics) execute specific tasks.
 Each **Agentic Node**, fuses the high-level AI Agent with its ```ROS 2 Node Implementation```, encapsulating the ```AI Reasoner```, a ```Safety Parser```, and communication interfaces.
 
-## Our Solution: UROSA - transition to True Robot Autonomy
+## Our Solution: UROSA - transition to AI Robot Autonomy
 
 UROSA shifts the paradigm from writing rigid, low-level code to setting high-level mission goals. We replace the traditional, monolithic control program with a "cognitive ecosystem" of specialized AI agents. Each agent is an intelligent, ROS 2-native module responsible for a specific task—like vision, motion planning, or diagnostics.
 
@@ -54,7 +54,7 @@ UROSA shifts the paradigm from writing rigid, low-level code to setting high-lev
 
 ## Before You Start
 
-Following steps demonstrate how to run **UROSA**.
+The following steps demonstrate how to run **UROSA**.
 
 The core idea is to create a custom LLM agent tailored for ROS 2 tasks and then interface it with a ROS 2 node. This node acts as the bridge, feeding information from ROS topics to the LLM and translating the LLM's responses back into actionable commands for the robot.
 
