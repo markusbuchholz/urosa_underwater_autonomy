@@ -12,7 +12,7 @@
 </h1>
 
 
-The following repository contains the official implementation of **UROSA (Underwater Robot Self-Organizing Autonomy)**, a framework for building truly autonomous robots using a distributed network of AI agents in ROS 2. <br>
+The following repository contains the official implementation of [**UROSA (Underwater Robot Self-Organizing Autonomy)**](https://arxiv.org/abs/2507.23735), a framework for building truly autonomous robots using a distributed network of AI agents in ROS 2. <br>
 Visit the official [web page](https://markusbuchholz.github.io/urosa.html) for details.
 
 ## Introduction
