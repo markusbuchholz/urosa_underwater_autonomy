@@ -370,8 +370,9 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
       eprint={2507.14099},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
-      howpublished={arXiv preprint arXiv:2507.14099},
+      howpublished={arXiv preprint arXiv:2507.23735},
       note={Under review at the IEEE Journal of Oceanic Engineering. Code available at \url{https://github.com/markusbuchholz/urosa_underwater_autonomy}}
 }
 ```
+
 
