@@ -365,14 +365,15 @@ UROSA's agents are powered by LLMs. We use Ollama to run these models locally. F
 ## Citation
 ```bibtex
 @misc{buchholz2025urosa,
-      title={Distributed AI Agents for Cognitive Underwater Robot Autonomy}, 
-      author={Markus Buchholz and Ignacio Carlucho and Michele Grimaldi and Yvan R. Petillot},
-      year={2025},
-      eprint={2507.14099},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      howpublished={arXiv preprint arXiv:2507.23735},
-      note={Under review at the IEEE Journal of Oceanic Engineering. Code available at \url{https://github.com/markusbuchholz/urosa_underwater_autonomy}}
+      title         = {Distributed AI Agents for Cognitive Underwater Robot Autonomy}, 
+      author        = {Markus Buchholz and Ignacio Carlucho and Michele Grimaldi and Yvan R. Petillot},
+      year          = {2025},
+      eprint        = {2507.23735},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.RO},
+      note          = {Under review at the IEEE Journal of Oceanic Engineering.},
+      code          = {https://github.com/markusbuchholz/urosa_underwater_autonomy},
+      url           = {https://arxiv.org/abs/2507.23735}
 }
 ```
 
