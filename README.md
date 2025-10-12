@@ -108,7 +108,7 @@ This section will guide you through setting up the UROSA environment and running
     NOTE: In  ```run.sh ``` adjust these paths:
 
     ```bash
-     #Adjust these paths
+    # Adjust these paths
     local_auto="/home/markus/underwater/robot_autonomy/"
     local_src="/home/markus/underwater/robot_autonomy/src/"
 
